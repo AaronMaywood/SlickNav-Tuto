@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SlickNav 組み込み事例</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+	<style>
+		/* Desktop */
+		ul             { display: block; }
+		.slicknav_menu { display: none; }
+
+		/* Mobile */
+		@media (max-width: 600px) {
+			ul             { display: none; }
+			.slicknav_menu { display: block; }
+
+			header {
+				position: relative;
+			}
+
+			.slicknav_menu {
+				background: transparent;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+			} 
+
+			.slicknav_nav {
+				background: #4c4c4c;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Green Camp</h1>
+		<ul>
+			<li><a href="">森林探検隊</a></li>
+			<li><a href="">季節のイベント</a></li>
+			<li><a href="">アクセスマップ</a></li>
+			<li><a href="">お問い合わせ</a></li>
+			<li><a href="">ブログ</a></li>
+		</ul>
+	</header>
+	<script>
+		$(function(){
+			$('ul').slicknav({
+				label: '',
+				appendTo: 'header',
+			});
+		});
+	</script>
+</body>
+</html>
