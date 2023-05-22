@@ -5,7 +5,6 @@
 ![](https://i.gyazo.com/b278626f981e262692ad3cfee1560681.gif)
 
 `SlickNav`は[公式サイト](https://computerwolf.github.io/SlickNav/) で無料で配布されているハンバーガーメニューを実現する仕組みです。
-`SlickNav`を使用すればハンバーガーメニューを比較的簡単に実装することができます。
 
 この文章では以下の内容を順番に説明します。
 
@@ -22,7 +21,7 @@
 
 `SlickNav`の使用方法は[公式サイト](https://computerwolf.github.io/SlickNav/)（及び[公式GitHubリポジトリー](https://github.com/ComputerWolf/SlickNav#usage)）に記載されており、それに従って設置作業を進めていきます。
 
-（[公式サイト](https://computerwolf.github.io/SlickNav/)は「分かる人向け」に省略して書かれているため、そのままでは初心者には厳しい内容になっています。`Google`検索で`SlickNav`の日本語の解説記事を探し、それを頼りに作業するとよいでしょう。）
+（[公式サイト](https://computerwolf.github.io/SlickNav/)の説明は「分かる人向け」に省略して書かれているため、そのままでは初心者には厳しい内容になっています。たとえば`SlickNav`の動作に必用な`jQuery`の組み込みは当たり前のこととして説明がありません。この文章を参考にして作業を進めていただく他、`Google`検索で`SlickNav`の日本語の解説記事を探し、それを頼りにしていただきたいと思います。）
 
 `SlickNav`を組み込む前の`HTML`を以下のように用意します。`SlickNav`ではメニューとしてリストを使用しますので、`ul`としてマークアップしました。
 
