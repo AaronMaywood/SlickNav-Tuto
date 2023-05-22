@@ -1,6 +1,6 @@
 # SlickNav の使用方法（組み込み事例）
 
-ハンバーガーメニューに`SlickNav`を使用して以下のようなメニューを作成します。
+最初に完成版（`index.html`）のイメージを示します。ハンバーガーメニューの`SlickNav`を使用して以下のようなメニューを作成します。
 
 ![](https://i.gyazo.com/b278626f981e262692ad3cfee1560681.gif)
 
@@ -45,9 +45,9 @@
 </html>
 ```
 
-`SlickNav`を組み込んだ後は次のようになります。
+`SlickNav`を組み込んだ後（`index1.html`）は次のようになります。
 
-```index1.html
+```
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -97,9 +97,9 @@
 
 ### オプション - 「MENU」を消す
 
-アイコンの左側に表示されている「MENU」の文字を消してアイコンだけの表示にするために、<!-- 3 --> にラベルオプション（`label`）を追加します。
+アイコンの左側に表示されている「MENU」の文字を消してアイコンだけの表示にするために、<!-- 3 --> にラベルオプション（`label`）を追加します。（`index2.html`）
 
-```index2.html
+```
 <script>
   $(function(){
     $('ul').slicknav({
@@ -160,9 +160,9 @@
 ```
 とすればハンバーガーメニューを非表示にすることができます。
 
-これをもとに`Mobile`と`Desktop`で表示するものを切り替える`CSS`のコードは以下のようになります。
+これをもとに`Mobile`と`Desktop`で表示するものを切り替える`CSS`のコードは以下のようになります。（`index3.html`）
 
-```index3.html
+```
 <style>
     /* Desktop */
     ul             { display: block; } /* `block`は`display`の初期値なのでこの一行は省略可能です */
@@ -274,9 +274,9 @@ header {
 
 ## 完成版のソースコード
 
-最終的にソースコードは以下のようになりました。
+最終的にソースコードは以下のようになりました。（`index.html`）
 
-```index.html
+```
 <!DOCTYPE html>
 <html lang="ja">
 <head>
