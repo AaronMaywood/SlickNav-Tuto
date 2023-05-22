@@ -4,7 +4,7 @@
 
 ![](https://i.gyazo.com/b278626f981e262692ad3cfee1560681.gif)
 
-`SlickNav`は[公式サイト](https://computerwolf.github.io/SlickNav/) で無料で配布されているハンバーガーメニューを実現する仕組みです。
+`SlickNav`は[SlickNavの公式サイト](https://computerwolf.github.io/SlickNav/) で無料で配布されているハンバーガーメニューを実現する仕組みです。
 
 この文章では以下の内容を順番に説明します。
 
